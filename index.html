@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Game Engine</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="background">
+        
+        <canvas id="canvas"></canvas>
+        <div id="widget">
+            <button id="translate">Translate</button>
+            <button id="rotate">Rotate</button>
+            <button id="scale">Scale</button>
+        </div>
+        <div id="detailsPanel">
+            <h3>Cube Properties</h3>
+            <label>
+                Position X: <input type="number" id="posX" step="0.1">
+            </label>
+            <label>
+                Position Y: <input type="number" id="posY" step="0.1">
+            </label>
+            <label>
+                Position Z: <input type="number" id="posZ" step="0.1">
+            </label>
+            <label>
+                Rotation X: <input type="number" id="rotX" step="0.1">
+            </label>
+            <label>
+                Rotation Y: <input type="number" id="rotY" step="0.1">
+            </label>
+            <label>
+                Rotation Z: <input type="number" id="rotZ" step="0.1">
+            </label>
+            <label>
+                Scale X: <input type="number" id="scaleX" step="0.1">
+            </label>
+            <label>
+                Scale Y: <input type="number" id="scaleY" step="0.1">
+            </label>
+            <label>
+                Scale Z: <input type="number" id="scaleZ" step="0.1">
+            </label>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
